@@ -6,6 +6,14 @@
 		 url('/vazir-code/Vazir-Code.ttf') format('truetype');
 	font-weight: normal;
 }
+@font-face {
+	font-family: Vazir;
+	src: url('/vazir/Vazir.eot');
+	src: url('/vazir/Vazir.eot?#iefix') format('embedded-opentype'),
+		 url('/vazir/Vazir.woff') format('woff'),
+		 url('/vazir/Vazir.ttf') format('truetype');
+	font-weight: normal;
+}
 body {
 	height: 100%;
 	font-size: 100%;
