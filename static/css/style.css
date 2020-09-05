@@ -42,7 +42,7 @@
 		 url('../fonts/Vazir-Code.ttf') format('truetype');
 }
 
-/* @font-face {
+@font-face {
 	font-family: 'Vazir Code Hack';
 	font-weight: normal;
 	src: url('../fonts/Vazir-Code-Hack.eot');
@@ -50,7 +50,7 @@
 		 url('../fonts/Vazir-Code-Hack.woff2') format('woff2'),
 		 url('../fonts/Vazir-Code-Hack.woff') format('woff'),
 		 url('../fonts/Vazir-Code-Hack.ttf') format('truetype');
-} */
+}
 
 :root {
 	--animate-duration: 1s;
@@ -128,7 +128,7 @@
 	text-align: right;
 }
 .note {overflow: auto;}
-.strum { background-color: rgb(0, 151, 0); }
+.strum { padding:.3rem 0 0 0; background-color: rgb(0, 151, 0); }
 .fa {
 	direction: rtl;
 }
@@ -284,10 +284,10 @@ strong {
 pre, code, br {
 	display: flex;
 	display: inline;
-	font-family: 'Vazir Code', monospace;
+	font-family: 'Vazir Code Hack', monospace;
 	font-size: 1.7rem;
 	font-weight: 400;
-	/* line-height: 2.5rem; */
+	line-height: 2.2rem;
 	overflow-x: auto;
 }
 
@@ -525,7 +525,7 @@ img.emoji {
 }
 
 .list ul li .title {
-	font-size: 1.7rem;
+	font-size: 2rem;
 	color: #212121;
 	font-family: 'Vazir', Helvetica, sans-serif;
 	font-weight: 700
@@ -550,7 +550,7 @@ img.emoji {
 	display: flex;
 	justify-content: space-between;
 	align-items: baseline;
-	/* padding: 12px 0 */
+	padding: 0 0 10px 0
 }
 
 .post-day {
