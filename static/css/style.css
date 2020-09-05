@@ -23,24 +23,34 @@
 } */
 
 @font-face {
-	font-family: 'Vazir Code';
+	font-family: 'Vazir';
 	font-weight: normal;
-	src: url('/fonts/Vazir-Code.eot');
-	src: url('/fonts/Vazir-Code.eot?#iefix') format('embedded-opentype'),
-		 url('/fonts/Vazir-Code.woff2') format('woff2'),
-		 url('/fonts/Vazir-Code.woff') format('woff'),
-		 url('/fonts/Vazir-Code.ttf') format('truetype');
+	src: url('../fonts/Vazir.eot');
+	src: url('../fonts/Vazir.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/Vazir.woff2') format('woff2'),
+		 url('../fonts/Vazir.woff') format('woff'),
+		 url('../fonts/Vazir.ttf') format('truetype');
 }
 
 @font-face {
+	font-family: 'Vazir Code';
+	font-weight: normal;
+	src: url('../fonts/Vazir-Code.eot');
+	src: url('../fonts/Vazir-Code.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/Vazir-Code.woff2') format('woff2'),
+		 url('../fonts/Vazir-Code.woff') format('woff'),
+		 url('../fonts/Vazir-Code.ttf') format('truetype');
+}
+
+/* @font-face {
 	font-family: 'Vazir Code Hack';
 	font-weight: normal;
-	src: url('/fonts/Vazir-Code-Hack.eot');
-	src: url('/fonts/Vazir-Code-Hack.eot?#iefix') format('embedded-opentype'),
-		 url('/fonts/Vazir-Code-Hack.woff2') format('woff2'),
-		 url('/fonts/Vazir-Code-Hack.woff') format('woff'),
-		 url('/fonts/Vazir-Code-Hack.ttf') format('truetype');
-}
+	src: url('../fonts/Vazir-Code-Hack.eot');
+	src: url('../fonts/Vazir-Code-Hack.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/Vazir-Code-Hack.woff2') format('woff2'),
+		 url('../fonts/Vazir-Code-Hack.woff') format('woff'),
+		 url('../fonts/Vazir-Code-Hack.ttf') format('truetype');
+} */
 
 :root {
 	--animate-duration: 1s;
@@ -274,7 +284,7 @@ strong {
 pre, code, br {
 	display: flex;
 	display: inline;
-	font-family: 'Vazir Code Hack', monospace;
+	font-family: 'Vazir Code', monospace;
 	font-size: 1.5rem;
 	font-weight: 400;
 	/* line-height: 2.5rem; */
@@ -661,7 +671,7 @@ img.emoji {
 
 .navigation .navigation-title {
 	letter-spacing: .1rem;
-	font-family: 'Vazir Code Hack', monospace;
+	font-family: 'Vazir Code', monospace;
 	/* text-transform: uppercase */
 }
 
