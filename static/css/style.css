@@ -526,14 +526,16 @@ img.emoji {
 
 .list ul li .title {
 	font-size: 2rem;
-	color: #212121;
+	/* color: #212121; */
+	color: green;
 	font-family: 'Vazir', Helvetica, sans-serif;
 	font-weight: 700
 }
 
 .list ul li .title:hover,
 .list ul li .title:focus {
-	color: #1565c0
+	/* color: #1565c0 */
+	color: lightgreen
 }
 
 .posts-list {
@@ -599,7 +601,8 @@ img.emoji {
 }
 
 .centered .about ul li a {
-	color: #212121;
+	/* color: #212121; */
+	color: green;
 	text-transform: uppercase;
 	margin-left: 1rem;
 	margin-right: 1rem;
@@ -608,7 +611,8 @@ img.emoji {
 
 .centered .about ul li a:hover,
 .centered .about ul li a:focus {
-	color: #1565c0
+	/* color: #1565c0 */
+	color: lightgreen
 }
 
 @media only screen and (max-width:768px) {
@@ -661,12 +665,14 @@ img.emoji {
 	font-family: 'Vazir', Helvetica, sans-serif;
 	font-weight: 700;
 	line-height: 6rem;
-	color: #212121
+	/* color: #212121 */
+	color: green
 }
 
 .navigation a:hover,
 .navigation a:focus {
-	color: #1565c0
+	/* color: #1565c0 */
+	color: lightgreen
 }
 
 .navigation .navigation-title {
@@ -768,7 +774,10 @@ img.emoji {
 	cursor: pointer;
 }
 
-.navigation #dark-mode-toggle:hover { color: #1565c0; }
+.navigation #dark-mode-toggle:hover {
+	/* color: #1565c0 */
+	color: lightgreen
+}
 
 .navigation #menu-toggle {
 	display: none
@@ -786,12 +795,16 @@ img.emoji {
 }
 
 .navigation .menu-button {
+	color: green;
 	padding-right: 1rem;
 	display: none;
 	cursor: pointer;
 }
 
-.navigation .menu-button:hover { color: #1565c0; }
+.navigation .menu-button:hover {
+	/* color: #1565c0 */
+	color: lightgreen
+}
 
 @media only screen and (max-width:768px) {
 	.navigation .menu-button {
