@@ -108,10 +108,12 @@ body.colorscheme-dark .content .centered .about ul li a:focus {
 	}
 }
 
-body.colorscheme-dark .navigation a,
 body.colorscheme-dark .navigation span {
-    /* color: #dadada */
-    color: green
+    color: #dadada
+}
+
+body.colorscheme-dark .navigation a {
+	color: green
 }
 
 body.colorscheme-dark .navigation a:hover,

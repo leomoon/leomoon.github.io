@@ -665,7 +665,14 @@ img.emoji {
 	font-family: 'Vazir', Helvetica, sans-serif;
 	font-weight: 700;
 	line-height: 6rem;
-	/* color: #212121 */
+	color: #212121
+}
+
+.navigation a {
+	color: green
+}
+
+#dark-mode-toggle {
 	color: green
 }
 
